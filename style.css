@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Formula Condensed";
-  src: url("/fonts/formula_condensed.woff2") format("woff2"),
-    url("/fonts/formula_condensed.woff") format("woff");
+  font-family: "Neue Bit";
+  src: url("/fonts/neuebit.woff2") format("woff2"),
+    url("/fonts/neuebit.woff") format("woff");
 }
 
 * {
@@ -12,14 +12,6 @@
 
 body {
   font-family: "Neue Montreal", sans-serif;
-}
-
-#overlay-light {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background: #d7d7d7;
-  z-index: 1;
 }
 
 #overlay-dark {
@@ -56,9 +48,13 @@ a {
   color: #d7d7d7;
 }
 
+a:hover {
+  color: #d1fa3d;
+}
+
 .nav {
-  font-size: 24px;
-  font-family: "Formula Condensed";
+  font-size: 48px;
+  font-family: "Neue Bit";
   padding: 0 32px !important;
 }
 
@@ -84,5 +80,5 @@ a {
 
 .desc {
   font-size: 11px;
-  color: #898989;
+  color: #9dbb31;
 }
